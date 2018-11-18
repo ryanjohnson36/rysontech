@@ -1,0 +1,828 @@
+body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+/* Nav Section */
+label {
+    display:none;
+}
+
+span {
+    color:white;
+    border-bottom:2px solid orange;
+    border-right:2px solid orange;
+    border-top:2px solid orange;
+    border-left:2px solid orange;
+    padding:2px;
+}
+
+#toggle {
+    display:none;
+}
+
+#top-nav-section {
+    overflow:hidden;
+    margin:auto;
+    position:fixed;
+    width:100%;
+}
+
+#top-nav-section2 {
+    background:black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-bottom:2px solid orange;
+    overflow:hidden;
+    margin:auto;
+    position:fixed;
+    width:100%;
+}
+
+#top-nav-section.active {
+    background:black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-bottom:2px solid orange;
+}
+
+.nav-section {
+    width:70%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.nav-section h2 {
+    font-family: verdana;
+    color:dodgerblue;
+    float:left;
+    font-weight:100;
+}
+
+.menu {
+    float:right;
+    margin-top:25px;
+}
+
+.menu a {
+    text-decoration:none;
+    color:white;
+    padding-right:20px;
+    font-family:verdana;
+}
+
+.menu .home {
+    color:dodgerblue;
+}
+
+.menu .home:hover {
+    color:white;
+}
+
+.menu a:hover {
+    color:dodgerblue;
+}
+
+/* Showcase Section */
+#showcase-section {
+    background:url(cool.jpeg);
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    overflow:hidden;
+    font-family:verdana;
+    border-bottom:2px solid orange;
+}
+
+.showcase {
+    background:rgba(0,0,0,0.6);
+    overflow:hidden;
+    height:100vh;
+}
+
+.showcase h2 {
+    margin-top:200px;
+    color:dodgerblue;
+    font-size:60px;
+    line-height:1.5;
+    text-shadow:1px black;
+    text-align:center;
+}
+
+.showcase p {
+    text-align:center;
+    color:white;
+    font-size:24px;
+    color:orange;
+}
+
+.showcase p a {
+    text-decoration:none;
+    color:dodgerblue;
+    border:2px solid dodgerblue;
+    padding:10px 20px 10px 20px;
+    border-top-left-radius:30px;
+    border-bottom-right-radius:20px;
+    font-size:18px;
+    transition:all .5s;
+}
+
+.showcase p a:hover {
+    padding:10px 50px 10px 50px;
+    background:dodgerblue;
+    color:white;
+}
+
+.social {
+    margin-top:200px;
+}
+
+.social a {
+    text-decoration:none;
+    color:white;
+    font-size:24px;
+    padding-left:10px;
+}
+
+.social a:hover {
+    color:orange;
+}
+
+/* About Section */
+#about-section {
+    font-family:verdana;
+    border-bottom:2px solid orange;
+}
+
+.about h2 {
+    text-align:center;
+}
+
+.grid-container {
+    display:grid;
+    grid-template-columns:auto auto auto;
+}
+
+.item {
+    padding-top:150px;
+    padding-bottom:150px;
+}
+
+.item h3 {
+    text-align:center;
+}
+
+.item h6 {
+    text-align:center;
+}
+
+.item h6 a {
+    text-decoration:none;
+    color:orange;
+    border:2px solid orange;
+    padding:10px 20px 10px 20px;
+    border-top-left-radius:30px;
+    border-bottom-right-radius:20px;
+    transition:all .6s;
+}
+
+.item h6 a:hover {
+    background:orange;
+    color:white;
+    padding:10px 35px 10px 35px;
+}
+
+#color1 {
+    background:dodgerblue;
+    overflow:hidden;
+}
+
+#color2 {
+    background:black;
+    overflow:hidden;
+    color:white;
+}
+
+#color3 {
+    background:white;
+    overflow:hidden;
+}
+
+/* Why Section */
+#why-section {
+    background:url(computer.jpeg);
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    overflow:hidden;
+    color:dodgerblue;
+    font-family:verdana;
+}
+
+.why {
+    background:rgba(0,0,0,0.8);
+    overflow:hidden;
+    padding:40px 0 40px 0;
+}
+
+.why h2 {
+    text-align:center;
+}
+
+.why ul {
+    padding:0;
+    text-align:center;
+    padding-top:20px;
+}
+
+.why li {
+    list-style-type:none;
+    display:inline-block;
+    padding-right:10px;
+}
+
+/* Services Section */
+#services-section {
+    font-family:verdana;
+    padding:40px 0 40px 0;
+    border:2px solid orange;
+}
+
+.services h2 {
+    text-align:center;
+    color:orange;
+}
+
+.services ul {
+    color:dodgerblue;
+}
+
+.webdev {
+    width:60%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.webdev ul {
+    padding:0;
+    padding-top:30px;
+}
+
+.webdev li {
+    list-style-type:none;
+}
+
+.webdev p {
+    float:right;
+    width:50%;
+    margin-top:-60px;
+    overflow:hidden;
+}
+
+.webdesign {
+    width:60%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.webdesign ul {
+    padding:0;
+    padding-top:30px;
+}
+
+.webdesign li {
+    list-style-type:none;
+}
+
+.webdesign p {
+    float:right;
+    width:50%;
+    margin-top:-60px;
+    overflow:hidden;
+}
+
+.webhost {
+    width:60%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.webhost ul {
+    padding:0;
+    padding-top:30px;
+}
+
+.webhost li {
+    list-style-type:none;
+}
+
+.webhost p {
+    float:right;
+    width:50%;
+    margin-top:-60px;
+    overflow:hidden;
+}
+
+.webmain {
+    width:60%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.webmain ul {
+    padding:0;
+    padding-top:30px;
+}
+
+.webmain li {
+    list-style-type:none;
+}
+
+.webmain p {
+    float:right;
+    width:50%;
+    margin-top:-60px;
+    overflow:hidden;
+}
+
+.wordpress {
+    width:60%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.wordpress ul {
+    padding:0;
+    padding-top:30px;
+}
+
+.wordpress li {
+    list-style-type:none;
+}
+
+.wordpress p {
+    float:right;
+    width:50%;
+    margin-top:-60px;
+    overflow:hidden;
+}
+
+/* Why us section */
+#why-us-section {
+    background:dodgerblue;
+    overflow:hidden;
+    color:white;
+    font-family:arial;
+    padding:30px 0 30px 0;
+    border-bottom:2px solid orange;
+}
+
+.work h2 {
+    text-align:center;
+}
+
+.work p {
+    text-align:center;
+}
+
+.why-section {
+    width:60%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.why-section p {
+    line-height:1.5;
+}
+
+/* Work Section */
+#work-section {
+    background:orange;
+    overflow:hidden;
+    font-family:arial;
+    border-bottom:2px solid orange;
+}
+
+.work p {
+    line-height:1.5;
+}
+
+.ryanj {
+    float:left;
+    width:50%;
+    margin:auto;
+    background:url(ryan.png);
+    height:40vh;
+    overflow:hidden;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.work h3 {
+    margin-top:10vh;
+}
+
+.ry {
+    opacity:0;
+    text-align:center;
+    color:white;
+    transition:all .5s;
+}
+
+.ry:hover {
+    opacity:1;
+    background:rgba(0,0,0,0.8);
+    overflow:hidden;
+    height:40vh;
+}
+
+.ry a {
+    text-decoration:none;
+    color:white;
+    border:2ps solid dodgerblue;
+    padding:5px 10px 5px 10px;
+}
+
+.ryson {
+    float:right;
+    margin:auto;
+    width:50%;
+    overflow:hidden;
+    background:url(ryson.png);
+    height:40vh;
+     background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.rys {
+    opacity:0;
+    text-align:center;
+    color:white;
+    transition:all .5s
+}
+
+.rys:hover {
+    opacity:1;
+    background:rgba(0,0,0,0.6);
+    overflow:hidden;
+    height:40vh;
+}
+
+.rys a {
+    text-decoration:none;
+    color:white;
+    border:2ps solid dodgerblue;
+    padding:5px 10px 5px 10px;
+}
+
+/* Contact Section */
+#contact-section {
+    font-family:arial;
+    padding:30px 0 30px 0;
+    color:dodgerblue;
+    background:white;
+    overflow:hidden;
+    margin:auto;
+}
+
+.contact {
+    width:60%;
+    margin:auto;
+    overflow:hidden;
+}
+.contact ul {
+    padding:0;
+}
+
+.contact li {
+    list-style-type:none;
+    line-height:2;
+}
+
+.soc a {
+    padding:10px;
+    text-decoration:none;
+    font-size:24px;
+    color:dodgerblue;
+}
+
+.soc a:hover {
+    color:orange;
+}
+
+.info {
+    float:left;
+    width:50%;
+    margin:auto;
+}
+
+.email {
+    float:right;
+    width:40%;
+    margin:auto;
+}
+
+.email {
+    text-align:center;
+    margin-top:50px;
+}
+
+.email p {
+    text-align:left;
+}
+
+.email a {
+    text-decoration:none;
+    border:2px solid dodgerblue;
+    padding:5px 10px 5px 10px;
+    color:dodgerblue;
+}
+
+/* Footer Section */
+#footer {
+    background:black;
+    color:white;
+    text-align:center;
+    overflow:hidden;
+    font-family:arial;
+}
+
+/* Mission Section */
+#mission-section {
+    background:dodgerblue;
+    overflow:hidden;
+    margin:auto;
+    height:90vh;
+    border-bottom:2px solid orange;
+}
+
+.mission-sec {
+    width:60%;
+    margin:auto;
+    overflow:hidden;
+    font-family:arial;
+}
+
+.mission-sec h2 {
+    margin-top:200px;
+    color:orange;
+}
+
+.mission-sec p {
+    line-height:1.5;
+}
+
+/* Focus Section */
+#focus-section {
+    background:orange;
+    color:white;
+    margin:auto;
+    height:90vh;
+    overflow:hidden;
+}
+
+/* Abo Section */
+#abo-section {
+    background:white;
+    overflow:hidden;
+    margin:auto;
+    height:90vh;
+    border-bottom:2px solid orange;
+}
+
+/* Go Section */
+#go-section {
+    background:black;
+    overflow:hidden;
+    font-family:arial;
+    border-bottom:2px solid orange;
+}
+
+.mission-sec .foc {
+    color:dodgerblue;
+}
+
+#go-section:hover {
+    background:dodgerblue;
+}
+
+.go {
+    width:60%;
+    margin:auto;
+    overflow:hidden;
+    text-align:right;
+}
+
+.go a {
+    text-decoration:none;
+    color:orange;
+}
+
+@media only screen and (max-width:800px){
+    /* Nav Section */
+    .menu a {
+        display:block;
+        padding-right:0;
+        line-height:2;
+    }
+    
+    .menu {
+        display:none;
+        float:none;
+        text-align:center;
+    }
+    
+    .nav-section h2 {
+        float:none;
+    }
+    
+    label {
+        display:block;
+        color:dodgerblue;
+        font-size:30px;
+        margin-top:-55px;
+        text-align:right;
+    }
+    
+    #toggle:checked + .menu {
+        display:block;
+    }
+    
+    /* Showcase Section */
+    .showcase h2 {
+        font-size:36px;
+    }
+    
+    /* About Section */
+    .grid-container {
+        display:block;
+    }
+    
+    #color1 {
+        border-bottom:2px solid orange;
+    }
+    
+    #color2 {
+        border-bottom:2px solid orange;
+    }
+    
+    /* Why Section */
+    .why ul {
+        padding:0;
+    }
+    
+    .why li {
+        display:block;
+        padding-right:0;
+        line-height:1.5;
+    }
+    
+    /* Services Section */
+    .services .secondary {
+        width:100%;
+    }
+    
+    .webdev {
+        width:100%;
+        margin:auto;
+        overflow:hidden;
+    } 
+    
+    .webdev p {
+        float:none;
+        margin-top:0;
+        width:97%;
+    }
+    
+    .webdev ul {
+        text-align:center;
+    }
+    
+    .webdesign {
+        width:100%;
+        margin:auto;
+        overflow:hidden;
+    } 
+    
+    .webdesign p {
+        float:none;
+        margin-top:0;
+        width:97%;
+    }
+    
+    .webdesign ul {
+        text-align:center;
+    }
+    
+    .webhost {
+        width:100%;
+        margin:auto;
+        overflow:hidden;
+    } 
+    
+    .webhost p {
+        float:none;
+        margin-top:0;
+        width:97%;
+    }
+    
+    .webhost ul {
+        text-align:center;
+    }
+    
+    .webmain {
+        width:100%;
+        margin:auto;
+        overflow:hidden;
+    } 
+    
+    .webmain p {
+        float:none;
+        margin-top:0;
+        width:97%;
+    }
+    
+    .webmain ul {
+        text-align:center;
+    }
+    
+    .wordpress {
+        width:100%;
+        margin:auto;
+        overflow:hidden;
+    } 
+    
+    .wordpress p {
+        float:none;
+        margin-top:0;
+        width:97%;
+    }
+    
+    .wordpress ul {
+        text-align:center;
+    }
+    
+    /* Why Us Section */
+    .why-section {
+        width:95%;
+    }
+    
+    /* Contact Section */
+    .info {
+        float:none;
+        width:100%;
+    }
+    
+    .email {
+        float:none;
+        width:100%;
+        margin-top:0;
+        padding-bottom:15px;
+    }
+    
+    .contact {
+        width:100%;
+    }
+    
+    /* Mission Section */
+    .mission-sec {
+        width:100%;
+    }
+    
+    .mission-sec h2 {
+        margin-top:100px;
+    }
+    
+    /* Work Section */
+    .ry {
+        opacity:1;
+        background:rgba(0,0,0,0.8);
+        overflow:hidden;
+        height:40vh;
+    }
+    
+    .ryson {
+        width:100%;
+        float:none;
+    }
+    
+    .ryanj {
+        float:none;
+        width:100%;
+    }
+    
+    .rys {
+        opacity:1;
+        background:rgba(0,0,0,0.8);
+        overflow:hidden;
+        height:40vh;
+    }
+    
+    /* About Section */
+    #abo-section {
+        height:auto;
+    }
+}
